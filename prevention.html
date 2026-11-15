@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prevention Guide - CyberShield Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+         <!-- header, yung title etc. -->
+    <header>
+        <h1>CyberShield: Digital Safety & Cyber Awareness</h1>
+        <p>Promoting safe, secure, and responsible use of the Internet</p>
+    </header>
+     <!-- navigation again -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="threats.html">Common Threats</a>
+        <a href="tips.html">Safety Tips</a>
+        <a href="prevention.html" class="active">Prevention Guide</a>
+        <a href="references.html">References</a>
+    </nav>
+     <!-- yung malaking box na content sa gitna uli -->
+    <div class="container">
+        <h2>✅ Step-by-Step Cyber Prevention Guide😼</h2>
+        <p>If you suspect a suspicious link, email, or virus on your device, follow these ordered steps to stay protected:</p>
+             <!-- yung may number list sa loob -->
+        <ol>
+            <li><strong>Stop and Pause:</strong> Do not panic when you receive an urgent message claiming your account will be closed. Scammers use urgency to make you act fast.</li>
+            <li><strong>Verify the Sender:</strong> Check the actual email address or phone number. Official companies do not use free personal email addresses.</li>
+            <li><strong>Do Not Click Links:</strong> Instead of clicking a link in an email, open your browser and type the official website address manually.</li>
+            <li><strong>Keep Software Updated:</strong> Regularly update your operating system, web browser, and antivirus software to patch security holes.</li>
+            <li><strong>Back Up Your Files:</strong> Save copies of your school projects and important documents on an external drive or cloud storage.</li>
+        </ol>
+
+        <hr> <!-- yung guhit na nag seseperate -->
+
+        <h2>✍️ Cyber Awareness Pledge & Incident Feedback Form</h2>
+        <p>Have you encountered a suspicious website, or do you want to take our student cyber safety pledge? Fill out the form below:</p>
+             <!-- yung form -->
+        <form action="thankyou.html" method="get">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="topic">What threat are you most concerned about?</label>
+            <select id="topic" name="topic">
+                <option value="phishing">Phishing & Fake Links</option>
+                <option value="malware">Malware & Viruses</option>
+                <option value="passwords">Account Hacking / Weak Passwords</option>
+                <option value="privacy">Social Media Privacy</option>
+            </select>
+
+            <label>Do you currently use Two-Factor Authentication (2FA)?</label>
+            <p class="options">
+                <label class="option"><input type="radio" id="yes2fa" name="2fa" value="yes" checked> Yes</label>
+                <label class="option"><input type="radio" id="no2fa" name="2fa" value="no"> No</label>
+            </p>
+
+            <label>Which safety habits will you practice starting today? (Check all that apply)</label>
+            <p class="options">
+                <label class="option"><input type="checkbox" name="habit1" value="strong_pass"> Use strong, unique passwords</label>
+                <label class="option"><input type="checkbox" name="habit2" value="check_links"> Verify links before clicking</label>
+                <label class="option"><input type="checkbox" name="habit3" value="update_os"> Keep my devices updated</label>
+            </p>
+
+            <label for="message">Share a Cyber Safety Tip or Report a Concern:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Clear Form">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 CyberShield Awareness Project | Bachelor of Science in Information Technology</p>
+        <p>Final Project for ITEC 101 of: Puhawan, Ileto, Humarang</p>
+    </footer>
+
+</body>
+</html>
