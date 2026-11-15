@@ -175,7 +175,7 @@ nav a.active {
     transform: scale(1.02);}
 .card {
     background: linear-gradient(135deg, #f6f8ff 0%, #f0f4ff 100%);
-    border-left: 4px solid #548cff;
+    border-left: 4px solid #fcaf5c;
     padding: 1.5rem;
     margin: 1.5rem 0;
     border-radius: 12px;
@@ -203,7 +203,7 @@ table {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);}
 th {
     background: linear-gradient(132deg, #fa9058 0%, #fecc64 25%,  #b5d8ff 75%, #95cafc 100%);
-    color: rgb(0, 0, 0);
+    color: rgb(52, 52, 52);
     padding: 1rem;
     text-align: left;}
 td {
